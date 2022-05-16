@@ -1,0 +1,152 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins' ;
+    scroll-behavior: smooth !important;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+.container {
+    background-color: hsl(0, 0%, 98%);
+    width: 1440px;
+    height: 922px;
+    text-align: center;
+    padding: 6em 8em 5em 8em;
+}
+.container header h1{
+    font-weight: 200 !important;
+    color: hsl(234, 12%, 34%);
+    font-size: 2.1em;
+}
+.container header h2{
+    font-weight: 600;
+    font-size: 2.1em;
+    color: hsl(234, 12%, 34%);
+}
+.container header p{
+    color: hsl(229, 6%, 66%);
+    font-size: 1em;
+    padding: 1em 26em;
+}
+
+.card{
+    width: 329px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 0px 10px 25px 0px #00000029;
+    text-align: left;
+    padding: 1.5em 2em;
+}
+main{
+    margin-top: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Cyan{
+    border-top: hsl(180, 62%, 55%) 5px solid;
+    border-radius: 7px;
+    margin-top: 8em;
+    margin-right: 2em;
+}
+.red{
+    border-top: hsl(0, 78%, 62%) 5px solid;
+    border-radius: 7px;
+}
+.orange{
+    border-top: hsl(34, 97%, 64%) 5px solid;
+    border-radius: 7px;
+    margin-top: -5.9em;
+}
+.blue{
+    border-top: hsl(212, 86%, 64%) 5px solid;
+    border-radius: 7px;
+    margin-top: 8em;
+    margin-left: 2em;
+}
+.card h3{
+    color: hsl(234, 12%, 34%);
+    font-size: 1.2em;
+}
+.card a{
+    text-decoration: none;
+}
+.card p{
+    color: hsl(229, 6%, 66%);
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent !important;
+    color: hsl(234, 12%, 34%) !important;
+    font-weight: 600 !important ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+figure{
+    background-color: transparent !important;
+    margin: 37px 0  0 200px  !important;
+}
+@media (max-width:700px){
+    .container{
+        width: 375px;
+        height: 1360px;
+        padding: 60px 30px 40px 30px;
+        scroll-behavior: smooth;
+    }
+    .container header h1{
+        font-weight: 200 !important;
+        color: hsl(234, 12%, 34%);
+        font-size: 1.6em;
+    }
+    .container header h2{
+        font-weight: 600;
+        font-size: 1.6em;
+        color: hsl(234, 12%, 34%);
+    }
+    .container header p{
+        color: hsl(229, 6%, 66%);
+        font-size: 1em;
+        padding: 1em 0 1em 0;
+        line-height: 1.6;
+    }
+
+
+    .card{
+        width: 305px;
+        height: 230px;
+        background-color: white;
+        box-shadow: 0px 10px 25px 0px #00000029;
+        text-align: left;
+        padding: 1.7em;
+        margin: 30px 0 0 0 ;
+    }
+    main{
+        margin-top: 1.5em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .Cyan {
+        order: 1;
+    }
+    .red {
+        order: 2;
+    }
+    .blue {
+        order: 4;
+    }
+    .orange {
+        order: 3;
+    }
+}
